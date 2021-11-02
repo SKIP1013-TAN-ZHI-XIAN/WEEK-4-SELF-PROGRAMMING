@@ -1,0 +1,32 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+class Constants {
+	
+	// Declaring constant
+	private static final int MIN_LENGTH = 69;
+	private static final double MAX_LOAD = 251;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int width; 
+		double total_surfaceArea;
+		System.out.print("Enter the width of the rectangle : ");
+		Scanner myShape = new Scanner(System.in);
+		width = myShape.nextInt();
+		total_surfaceArea = MIN_LENGTH * width;
+		System.out.println("The total surface area of the rectangle is : " + total_surfaceArea);
+		
+		System.out.println();
+		
+		int unit; 
+		double total_amount;
+		System.out.print("Enter the number of units you needed : ");
+		Scanner myLoad = new Scanner(System.in);
+		unit = myLoad.nextInt();
+		total_amount = MAX_LOAD * unit;
+		System.out.println("The total amount of loads you have to take is : " + total_amount);
+	}
+
+}
