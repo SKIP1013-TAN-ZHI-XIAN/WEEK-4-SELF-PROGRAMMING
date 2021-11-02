@@ -1,0 +1,23 @@
+package selfProgramming;
+
+class AssignmentEvaluation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numberOfCards = 22;
+		int handicap = 33;
+		
+		double score = numberOfCards + handicap;
+		
+		System.out.println("The score is : " + score);
+		
+		System.out.println();
+		
+		int eggsPerBasket = 8;
+		
+		eggsPerBasket-=2;
+		
+		System.out.println("Total eggs per basket is : " + eggsPerBasket);
+	}
+
+}
