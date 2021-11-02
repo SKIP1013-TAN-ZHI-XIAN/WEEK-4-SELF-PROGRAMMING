@@ -1,0 +1,57 @@
+package selfProgramming;
+
+class AssignmentStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int solution = 42;
+		
+		System.out.println("The variable name answer is assigned to a value of " + solution);
+		
+		System.out.println();
+		
+		// Assigning values
+		double number = 3.99;
+        
+		// Displaying the assigned values
+		System.out.println("The variable name amount is assigned to a number of " + number);
+        
+		System.out.println();
+        
+		String initial = "W";
+        
+		// Displaying the assigned values
+		System.out.println("The variable name first initial is assigned to a value of " + initial);
+		
+		System.out.println();
+        
+		// Declaring variables
+		int numberOfCards = 10;
+		int handicap = 20;
+       
+		System.out.println("Total number of cards = " + numberOfCards);
+		System.out.println("Total handicap = " + handicap);
+        
+		// Adding & Assigning values
+		numberOfCards += handicap;
+        
+		// Displaying the assigned values
+		System.out.println("The variable name score is assigned to a number of " + numberOfCards);
+        
+		System.out.println();
+        
+		// Declaring variables
+		int eggsPerBasket = 10; 
+		int eggsBroken = 2;
+  
+		System.out.println("Total eggs in a basket = " + eggsPerBasket);
+		System.out.println("Total eggs that broken = " + eggsBroken);
+  
+		// Subtracting & Assigning values
+		eggsPerBasket -= eggsBroken;
+  
+		// Displaying the assigned values
+		System.out.println("The variable name total eggs per basket is assigned to a number of " + eggsPerBasket);
+	}
+
+}
