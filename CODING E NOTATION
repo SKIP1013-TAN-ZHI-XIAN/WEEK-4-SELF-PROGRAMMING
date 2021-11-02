@@ -1,0 +1,13 @@
+package selfProgramming;
+
+class ENotation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double number1 = 865000000.0;
+		double number2 = 0.000483;
+		System.out.printf("Scientific notation 1 : %e ", number1);
+		System.out.printf("\nScientific notation 2 : %e ", number2);
+	}
+
+}
