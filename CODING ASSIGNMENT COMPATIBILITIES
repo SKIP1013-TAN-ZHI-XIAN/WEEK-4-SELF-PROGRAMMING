@@ -1,0 +1,26 @@
+package selfProgramming;
+
+class AssignmentCompatibilities {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Create char variables
+	  char a = '5';
+	  char b = 'c';
+
+	  // Convert char variables to int
+	  // ASCII value of characters is assigned
+	  int num1 = a;
+	  int num2 = b;
+
+	  // Print the values
+	  System.out.println(num1);  // 53
+	  System.out.println(num2);  // 99
+		
+	  System.out.println();
+	    
+	  double doubleVariable = 7;  // Possible
+		System.out.println("The variable is " + doubleVariable);
+	}
+
+}
