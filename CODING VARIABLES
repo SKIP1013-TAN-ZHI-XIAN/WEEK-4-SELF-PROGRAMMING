@@ -1,0 +1,40 @@
+package selfProgramming;
+
+class Variables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int myNum = 0;
+		int myTotal = 88;
+		int myCount = 6;
+		int myResult = 95;
+		int myLuckyNum = 7;
+		double myTemp = 36.5;
+		float myFloatNum = 5.99f;
+		char myGrade = 'A';
+		char myLetter = 'D';
+		boolean myBool = true;
+		String myGreeting = "Hello";
+		
+		System.out.println("The number is " + myNum);
+		System.out.println("The total is " + myTotal);
+		System.out.println("The amount is " + myCount);
+		System.out.println("The mark is " + myResult);
+		System.out.println("My lucky number is " + myLuckyNum);
+		System.out.println("The body temperature is " + myTemp);
+		System.out.println("The float number is " + myFloatNum);
+		System.out.println("The grade of the test is " + myGrade);
+		System.out.println("The char is " + myLetter);
+		System.out.println("The boolean is " + myBool);
+		System.out.println("The word I want to say is " + myGreeting);
+		
+		// Syntax
+		// type variable_1 = expression_1,
+		// variable_2 = expression_2,...;
+		// Examples : 
+		// int styleChoice, numberOfChecks;
+		// double balance, interestRate;
+		// char jointOrIndividual;
+	}
+
+}
