@@ -1,0 +1,14 @@
+package selfProgramming;
+
+class ModOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Last digit of 230857 : " + 230857 % 10);
+		System.out.println("Last 4 digits of 658236489 : " + 658236489 % 10);
+		System.out.println("Second-to-last digit of 7342 : " + 7342 % 100 / 10);
+		System.out.println("Another expression for second-to-last digit of 7342 : " + (7342 / 10) % 10);
+		System.out.println("Even or odd of 27 : " + 27 % 2);  // If the number %2 is 0 is even, otherwise is odd
+	}
+
+}
