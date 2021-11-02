@@ -1,0 +1,25 @@
+package selfProgramming;
+
+class Overflow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int oneThousand1 = 1000;   // No problem
+		int oneMillion1 = 1000 * oneThousand1; // OK
+		int oneBillion1 = 1000 * oneMillion1;  // OK
+		int threeBillion1 = 3 * oneBillion1;
+		System.out.println("The first amount of three billion is : " + threeBillion1);  // ??
+		// The result (3 billion) overflowed int capacity
+		// Maximum value for an int is +2147483647
+		// Use a long instead of an int (or a double)
+
+		System.out.println();
+		
+		long oneThousand2 = 1000;   
+		long oneMillion2 = 1000 * oneThousand2; 
+		long oneBillion2 = 1000 * oneMillion2;  
+		long threeBillion2 = 3 * oneBillion2;
+		System.out.println("The second amount of three billion is : " + threeBillion2);  
+	}
+
+}
