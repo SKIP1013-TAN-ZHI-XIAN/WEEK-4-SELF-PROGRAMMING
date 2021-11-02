@@ -1,0 +1,20 @@
+package selfProgramming;
+
+class ImprecisionFloat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double number1 = 1.0;
+		double number2 = 3.0;
+		
+		double avg;
+		double sum;
+		
+		avg = number1 / number2;
+		sum = avg + avg + avg;
+		
+		System.out.println("The average : " + avg);
+		System.out.println("The sum of three average : " + sum);
+	}
+
+}
