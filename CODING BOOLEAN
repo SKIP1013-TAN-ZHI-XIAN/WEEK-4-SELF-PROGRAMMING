@@ -27,15 +27,15 @@ class Boolean {
 		System.out.println();
 		
 		System.out.print("Is the light bulb being switch? True-Yes False-No :");  
-        boolean bright = scanMe.nextBoolean();  
-        if (bright == true) 
-        {  
-            System.out.println("The light bulb is on");  
-        } 
-        else
-        {  
-            System.out.println("The light bulb is off");  
-        }
+		boolean bright = scanMe.nextBoolean();  
+		if (bright == true) 
+		{  
+			System.out.println("The light bulb is on");  
+		} 
+		else
+		{  
+			System.out.println("The light bulb is off");  
+		}
 	}
 
 }
