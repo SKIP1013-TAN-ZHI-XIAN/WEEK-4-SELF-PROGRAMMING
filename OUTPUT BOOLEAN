@@ -1,0 +1,7 @@
+false
+
+Is the work being finished? True-Yes False-No :false
+Not yet finish = false
+
+Is the light bulb being switch? True-Yes False-No :true
+The light bulb is on
