@@ -1,0 +1,17 @@
+package selfProgramming;
+
+class RealNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(6.022 - 15.9997);
+		System.out.println(42.0 - 23.5);
+		System.out.println(3.651e12 + 2.143e17);
+		System.out.println(15.0 / 2.0);  
+		// () before *
+		// % before + -
+		System.out.println((2.0 * 2.4) + ((2.25 * 4.0) / 2.0));
+		System.out.printf("%.1f", (35.0 + 22.4 + 11.9) / 3.0);
+	}
+
+}
