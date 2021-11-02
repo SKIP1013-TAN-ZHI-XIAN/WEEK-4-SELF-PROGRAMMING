@@ -1,0 +1,43 @@
+package selfProgramming;
+
+class IncrementDecrement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int m = 4;
+		int result1 = 3 * (++m);
+		System.out.println("The final result is : " + result1);
+		
+		int n = 4;
+		int result2 = 3 * (n++);
+		System.out.println("The final result is : " + result2);
+		
+		int x = 9;
+		int result3 = 2 * (--x);
+		System.out.println("The final result is : " + result3);
+		
+		int y = 9;
+		int result4 = 2 * (y--);
+		System.out.println("The final result is : " + result4);
+		
+		System.out.println();
+		
+		int number = 50;
+
+		// Display the value in number.
+		System.out.println("Number is " + number);
+
+		// Increment number.
+		number++;
+
+		// Display the value in number.
+		System.out.println("Now, number is " + number);
+
+		// Decrement number.
+		number--;
+
+		// Display the value in number.
+		System.out.println("Now, number is " + number);
+	}
+
+}
